@@ -6,7 +6,7 @@ from mlflow import MlflowClient
 import mlflow.client
 dagshub.init(repo_owner='himadri06', repo_name='Swiggy-Delivery-Time-Prediction', mlflow=True)
 
-# set the mlflow tracking server
+# set up the mlflow tracking server
 mlflow.set_tracking_uri("https://dagshub.com/himadri06/Swiggy-Delivery-Time-Prediction.mlflow")
 
 def load_model_information(file_path):
