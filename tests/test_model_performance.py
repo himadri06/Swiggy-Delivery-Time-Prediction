@@ -12,7 +12,7 @@ import dagshub
 import mlflow.client
 dagshub.init(repo_owner='himadri06', repo_name='Swiggy-Delivery-Time-Prediction', mlflow=True)
 
-# set the mlflow tracking server
+# setting the mlflow tracking server
 mlflow.set_tracking_uri("https://dagshub.com/himadri06/Swiggy-Delivery-Time-Prediction.mlflow")
 
 
