@@ -18,6 +18,7 @@ jobs:
         run: |
           pip install dvc
           pip install dvc-s3  # Install the S3 support for DVC
+          pip install pytest
 
       - name: Install Packages
         run: |
